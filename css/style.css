@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Noto+Sans+JP:wght@700&family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+.card-text {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300
+}
+.col-md-3 {
+ font-family: 'MuseoModerno', sans-serif;
+ font-weight: 300
+}
+.card-title {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 500
+}
+
+/* Header, footer */
+
+header, footer {
+  background-color: #4B0082;}
+  .navbar-brand {
+   font-size: 18px;
+   font-weight: 600;
+  }
+  .nav-link, .dropdown-item {
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+  }
+  nav li {
+   padding: 0 18px;
+  }
+  nav li.active, nav li.active:before {
+   background-color: rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+  }
+  .carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+
+
+.nav {
+  background: #191970;
+}
+.nav-item {
+  padding: 5px;
+}
+.nav-item:hover, .active {
+  background: #000000;
+}
+
+.nav-link, .nav-link:hover {
+  color: #FFFFFF;
+  font: bold 14px sans-serif;
+}
+.hero-block {
+  background-image: url("https://res.cloudinary.com/dahyyqhke/image/upload/v1590775838/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
